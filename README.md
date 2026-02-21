@@ -12,14 +12,3 @@ These programs cover fundamental concepts like condition checking, loops, arithm
 3. ⚖️ Check Whether a Number is Odd or Even  
 4. ➕ Sum of Odd and Even Numbers up to a Given Range  
 5. 🧮 Factorial of a Number
-
-
-
----
-
-## 👩‍💻 Author
-
-Anjana V P  
-
----
-
