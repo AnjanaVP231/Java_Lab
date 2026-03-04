@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 abstract class Shape {
     abstract void calculateArea();
 
@@ -35,14 +37,21 @@ class Rectangle extends Shape {
 
 public class TestAbstract {
     public static void main(String[] args) {
-
-        Circle c = new Circle(5);
-        Rectangle r = new Rectangle(4, 6);
-
+	
+	Scanner sc = new Scanner(System.in);
+        System.out.print("Enter radius: ");
+        int r = sc.nextInt();
+        Circle c = new Circle(r);
         c.display();
         c.calculateArea();
-
-        r.display();
-        r.calculateArea();
+        
+        System.out.print("Enter length : ");
+        int l = sc.nextInt();
+        System.out.print("Enter width : ");
+        int w = sc.nextInt();
+        
+        Rectangle R = new Rectangle(l, w);
+        R.display();
+        R.calculateArea();
     }
 }
